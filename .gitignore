@@ -39,3 +39,11 @@
 
 # debug information files
 *.dwo
+
+.vs/
+Build/
+Intermediate/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
