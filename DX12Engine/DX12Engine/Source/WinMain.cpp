@@ -23,18 +23,18 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wParam, LPARAM lP
 
 #pragma region Operations
 
-int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
-{
-	InitializeVariable();
-
-	CreateWindowClass();
-
-	InitializeWindow();
-
-	MessageLoop();
-
-	return 0;
-}
+//INT CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
+//{
+//	InitializeVariable();
+//
+//	CreateWindowClass();
+//
+//	InitializeWindow();
+//
+//	MessageLoop();
+//
+//	return 0;
+//}
 
 #pragma endregion
 
