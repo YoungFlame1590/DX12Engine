@@ -10,6 +10,8 @@ public:
 	~Application();
 
 public:
+	VOID SetupPerGameSettings();
+
 	VOID Initialze();
 
 	VOID Update();

@@ -10,6 +10,8 @@ public:
 	virtual ~IApplication() {};
 
 public:
+	virtual VOID SetupPerGameSettings() = 0;
+
 	virtual VOID Initialze() = 0;
 
 	virtual VOID Update() = 0;

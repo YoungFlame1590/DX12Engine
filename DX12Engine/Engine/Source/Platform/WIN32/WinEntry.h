@@ -8,6 +8,12 @@ extern IApplication* EntryApplication();
 INT CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 {
 	auto EntryApp = EntryApplication();
+
+	PerGameSettings GameSettings;
+	EntryApp->SetupPerGameSettings();
+
+	Logger logger;
+
 	EntryApp->Initialze();
 
 	MSG msg = { 0 };

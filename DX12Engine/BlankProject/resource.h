@@ -1,10 +1,11 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ 生成的包含文件。
-// 供 DX12Engine.rc 使用
+// 供 BlankProject.rc 使用
 //
 #define IDI_MAINICON                    101
 #define IDS_PERGANENAME                 102
 #define IDS_WINDOWCLASS                 103
+#define IDS_SHORTNAME                   104
 
 // Next default values for new objects
 // 

@@ -11,3 +11,10 @@
 #else
 	#define ENGINE_API __declspec(dllimport)
 #endif // BUILD_ALL
+
+#define MAX_NAME_STRING 256
+#define HInstance() GetModuleHandle(NULL)
+
+#include "Common/logger.h"
+#include "Common/Time.h"
+#include "Core/PerGameSetting.h"
